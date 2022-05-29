@@ -1,0 +1,7 @@
+事象：twiiter.postで投稿すると「<Response [200]>」と表示され
+　　　投稿できない
+
+原因：APIの設定画面でRead Onlyの設定になっていた
+
+解決方法：APIの設定画面から「OAuth 1.0a」に変更し「Read and Write」にマークを付け
+　　　　　トークンを再発行
